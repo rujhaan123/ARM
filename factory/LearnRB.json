@@ -1,0 +1,9 @@
+{
+	"name": "LearnRB",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "89d569a9-2bf6-488d-8267-edae7b4640d1",
+		"tenantId": "1bf20b87-efcb-4b0f-b76e-80bdba96b3d1"
+	}
+}
