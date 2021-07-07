@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "LearnRB"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_ablob_aadf_connectionString": {
+			"value": ""
+		},
+		"ls_adls_lake1ysds_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://covidreportingdl1r.dfs.core.windows.net"
+		},
+		"ls_adls_lake1ysds_properties_typeProperties_url": {
+			"value": "https://lake1ysds.dfs.core.windows.net"
+		},
+		"ls_http_opendata_ecdc_europe_eu_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/cloudboxacademy/covid19/main/ecdc_data/cases_deaths.csv"
+		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/51ced1e1-6f14-4d4f-a683-f00a55b939c6/resourceGroups/ADF/providers/Microsoft.Storage/storageAccounts/aadf"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
