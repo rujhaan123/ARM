@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Validation1",
+				"name": "Validation1_new",
 				"type": "Validation",
 				"dependsOn": [],
 				"userProperties": [],
@@ -22,7 +22,7 @@
 				"type": "GetMetadata",
 				"dependsOn": [
 					{
-						"activity": "Validation1",
+						"activity": "Validation1_new",
 						"dependencyConditions": [
 							"Succeeded"
 						]
